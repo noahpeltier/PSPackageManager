@@ -27,7 +27,7 @@ function New-ManifestEntry {
         $jsonObject = ConvertFrom-Json -InputObject (get-content .\software_manifest.json -Raw)
         foreach ($item in $jsonObject) {$list.Add($item)}
         $list.Add($entry)
-        Set-Content .\software_manifest.json -Value ($list | ConvertTo-Json)
+        Set-Content .\software_manifest.json -Value ($list | Sort-Object pkgname | ConvertTo-Json)
         $list = $null
     }
     else {
