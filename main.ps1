@@ -3,12 +3,13 @@ function apt {
         [ValidateSet('install', 'uninstall')]
         $arg,
         [switch]$force
+
     )
 
     switch ($arg) {
         'install' {
             
-            $Package = (Get-PackageObject $args)
+            $Package = (Get-PackageObject $args[0])
             Write-host "Downloading $($package.displayname)`nfrom $($package.pkgsource)"
             $File = Get-PackageFile $Package.pkgSource
             $FileHash = Get-FileHash $File
@@ -22,21 +23,21 @@ function apt {
 
             switch ( (Get-item $File).extension ) {
                 '.exe' {
-                    $Silent = '/S'
+                    $Silent = '/S' 
                 }
                 '.msi' {
-                    $Silent = '/quiet'
+                    $Silent = '/quiet' 
                 }
             }
 
             if ($Force) {
                 Write-host "Type of file is .exe`nInstalling software from $File Please Wait ..."
-                Start-Process $File -ArgumentList "$Silent" -Wait -PassThru
+                Start-Process $File -ArgumentList "$Silent + $($args[1])" -Wait -PassThru
             }
             else {
                 if ((confirm -message "Continue Installing $($Package.displayname)")) {
                     Write-host "Type of file is .exe`nInstalling software from $File Please Wait ..."
-                    Start-Process $File -ArgumentList "$Silent" -Wait -PassThru
+                    Start-Process $File -ArgumentList "$Silent + $($args[1])" -Wait -PassThru
                 }
                 else {
                     exit 0
