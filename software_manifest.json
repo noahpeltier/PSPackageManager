@@ -13,9 +13,9 @@
         "pkgName":  "MicrosoftTeams",
         "DisplayName":  "Microsoft Teams",
         "publisher":  null,
-        "pkgversion":  "1.4.00.22976",
-        "pkgSource":  "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.22976/Teams_windows_x64.msi",
-        "hash":  "5F0303B5FD462873DDFCFA1F86672C6A555431CD7613413988F0464C40D23B75",
+        "pkgversion":  "1.4.00.22472",
+        "pkgSource":  "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.22472/Teams_windows_x64.exe",
+        "hash":  "D75EF07EC26A980A30A3E44FC1A3539916E6198D82B0CF31210E6A856472B13B",
         "LastUpdate":  null
     },
     {
