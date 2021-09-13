@@ -1,4 +1,4 @@
-function apt {
+function spi {
     param(
         [ValidateSet('install', 'uninstall')]
         $arg,
