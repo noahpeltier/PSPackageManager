@@ -45,5 +45,14 @@
         "pkgSource":  "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/SlackSetup.msi",
         "hash":  "7B58B16DB337FA04AAA95BB34C0946DB651035FF923D4D302AD1F79BC5118AC8",
         "LastUpdate":  null
+    },
+    {
+        "pkgName":  "NotepadPlusPlus",
+        "DisplayName":  "Notepad++",
+        "publisher":  null,
+        "pkgversion":  "8.1.4",
+        "pkgSource":  "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.4/npp.8.1.4.Installer.x64.exe",
+        "hash":  "27E6E296DBE7C5D5F069604C1F0F97A4D5E09F9C4BBB4E98F328CA0D77179E9B",
+        "LastUpdate":  "2021-08-25T00:17:47Z"
     }
 ]

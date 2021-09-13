@@ -63,7 +63,7 @@ function apt {
 }
 
 function Get-PackageManifest {
-    $manifest = irm "https://gist.githubusercontent.com/noahpeltier/6ad26fae4a471d99cd3b367b3e70c8c2/raw/software_manifest.json"
+    $manifest = irm "https://raw.githubusercontent.com/noahpeltier/PSPackageManager/dev/software_manifest.json"
     return $manifest
 }
 function Get-PackageObject {
