@@ -1,4 +1,4 @@
-# PSPackageManager
+# spi Package Manager
 spi (Simple Package Installer), is an attempt to create a sort of package management module that uses native powershell only
 
 # What is this?
