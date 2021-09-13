@@ -59,9 +59,7 @@ function apt {
             }
             
         }
-    }
-
-            
+    }        
 }
 
 function Get-PackageManifest {
