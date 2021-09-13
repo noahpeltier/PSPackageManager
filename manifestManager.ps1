@@ -1,3 +1,9 @@
+function Get-RemoteFileHash {
+    param($URI)
+    $wc = [System.Net.WebClient]::new()
+    return Get-FileHash -InputStream ($wc.OpenRead($URI))
+}
+
 function New-ManifestEntry {
     param($name,[switch]$Test)
     $ea = Find-EvergreenApp -Name $Name
@@ -8,9 +14,7 @@ function New-ManifestEntry {
     if ($ea.count -gt 1) {
         $ea = $ea[0]
     }
-
-    $wc = [System.Net.WebClient]::new()
-    $FileHash = Get-FileHash -InputStream ($wc.OpenRead($eap.URI))
+    $FileHash = Get-RemoteFileHash -URI $eap.URI
 
     $entry = [PSCustomObject][ordered]@{
         pkgName = $ea.Name

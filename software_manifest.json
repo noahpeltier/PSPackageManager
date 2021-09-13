@@ -81,5 +81,32 @@
         "pkgSource":  "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-latest-ssl/en-US/win64/3076aaa863b9491f15c5d7f63a9183b6b3c2ae14438094a3def462401e70a217/Firefox%20Setup%2092.0.exe",
         "hash":  "E56EAACBD9E33EDF45EC3967F2EE5D3F23673312A424CFA4BFDC318D7F8618E3",
         "LastUpdate":  null
+    },
+    {
+        "pkgName":  "git-portable",
+        "DisplayName":  "Git for Windows Portable",
+        "publisher":  "git",
+        "pkgversion":  "2.33.0",
+        "pkgSource":  "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/PortableGit-2.33.0.2-64-bit.7z.exe",
+        "hash":  "BC030848E282D49E562AE2392A72501CF539322AD06FFE4CEA8CF766F148DFE8",
+        "LastUpdate":  null
+    },
+    {
+        "pkgName":  "docker-desktop",
+        "DisplayName":  "Docker Desktop for Windows",
+        "publisher":  "docker",
+        "pkgversion":  null,
+        "pkgSource":  "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
+        "hash":  "C3D19FA55950C4311477E8977C6CBAF7FE866942E9A2DF7AC9D296B8C8305DF5",
+        "LastUpdate":  null
+    },
+    {
+        "pkgName":  "Greenshot",
+        "DisplayName":  "Greenshot",
+        "publisher":  null,
+        "pkgversion":  "1.2.10.6",
+        "pkgSource":  "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
+        "hash":  "1687311B4E7A3720BE20490E8ED6CC772A32336A7BED8896E475B8EC616C6B81",
+        "LastUpdate":  null
     }
 ]
