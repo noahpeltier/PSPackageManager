@@ -72,5 +72,14 @@
         "pkgSource":  "https://officecdn.microsoft.com/pr/wsus/setup.exe",
         "hash":  "C31270C8B3C949BFCF3ED256D442C403275B1B7EC374FDED4C4946D51036D206",
         "LastUpdate":  null
+    },
+    {
+        "pkgName":  "Firefox",
+        "DisplayName":  "Mozilla Firefox",
+        "publisher":  "Mozilla",
+        "pkgversion":  "18.05",
+        "pkgSource":  "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-latest-ssl/en-US/win64/3076aaa863b9491f15c5d7f63a9183b6b3c2ae14438094a3def462401e70a217/Firefox%20Setup%2092.0.exe",
+        "hash":  "E56EAACBD9E33EDF45EC3967F2EE5D3F23673312A424CFA4BFDC318D7F8618E3",
+        "LastUpdate":  null
     }
 ]
