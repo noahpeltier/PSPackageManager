@@ -1,8 +1,8 @@
-# PSPackageManager
+# spi Package Manager
 spi (Simple Package Installer), is an attempt to create a sort of package management module that uses native powershell only
 
 # What is this?
-This module is a project that birthed from some limitations I found with Chocolaty and scoop on variouse systems.
+This module is a project that birthed from some limitations I found with Chocolatey and scoop on various systems.
 
 The spi module uses the windows native `net.webclient` with no dependancies, using suport code to call from a json file wich serves as a manifest of software sources.
 The manifest contains a hash of the file as well to compare when it is downloaded to asure security.
