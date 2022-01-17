@@ -1,112 +1,103 @@
 [
     {
-        "pkgName":  "chrome",
-        "displayName":  "Google Chrome",
+        "Name":  "chrome",
+        "DisplayName":  "Google Chrome",
         "publisher":  "Google",
-        "publisherSite":  "https://www.google.com/chrome/",
-        "pkgVersion":  "93.0.4577.63",
-        "pkgSource":  "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+        
+        "Version":  "93.0.4577.63",
+        "URI":  "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
         "hash":  "A1F5DE9B726DB664A5F15DD0A777F75C5F8C240F176CACF696B9C74ED2407A60",
         "LastUpdate":  "8/31/2021"
     },
     {
-        "pkgName":  "MicrosoftTeams",
+        "Name":  "MicrosoftTeams",
+        "File":  "Teams_windows_x64.exe",
         "DisplayName":  "Microsoft Teams",
-        "publisher":  null,
-        "pkgversion":  "1.4.00.22472",
-        "pkgSource":  "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.22472/Teams_windows_x64.exe",
-        "hash":  "D75EF07EC26A980A30A3E44FC1A3539916E6198D82B0CF31210E6A856472B13B",
-        "LastUpdate":  null
+        "publisher":  "Microsoft",
+        "version":  "1.4.00.22472",
+        "URI":  "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.22472/Teams_windows_x64.exe",
+        "hash":  "D75EF07EC26A980A30A3E44FC1A3539916E6198D82B0CF31210E6A856472B13B"
     },
     {
-        "pkgName":  "NotepadPlusPlus",
+        "Name":  "NotepadPlusPlus",
         "DisplayName":  "Notepad++",
         "publisher":  null,
-        "pkgversion":  "8.1.4",
-        "pkgSource":  "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.4/npp.8.1.4.Installer.x64.exe",
+        "Version":  "8.1.4",
+        "URI":  "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.4/npp.8.1.4.Installer.x64.exe",
         "hash":  "27E6E296DBE7C5D5F069604C1F0F97A4D5E09F9C4BBB4E98F328CA0D77179E9B",
         "LastUpdate":  "2021-08-25T00:17:47Z"
     },
     {
-        "pkgName":  "obs-studio",
-        "displayName":  "OBS Studio",
+        "Name":  "obs-studio",
+        "DisplayName":  "OBS Studio",
         "publisher":  "Open Broadcaster Software",
-        "publisherSite":  "https://obsproject.com/",
-        "pkgVersion":  "27.0.1",
-        "pkgSource":  "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.0.1-Full-Installer-x64.exe",
+        "Version":  "27.0.1",
+        "URI":  "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.0.1-Full-Installer-x64.exe",
         "hash":  "844F54C4ACF1ABBD51612CC9D4470E2E3A937106E5BE69BC94BBA7859FB748CD",
         "LastUpdate":  "6/11/21"
     },
     {
-        "pkgName":  "Slack",
+        "Name":  "Slack",
         "DisplayName":  "Slack",
         "publisher":  null,
-        "pkgversion":  "4.19.3",
-        "pkgSource":  "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/SlackSetup.msi",
+        "Version":  "4.19.3",
+        "URI":  "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/SlackSetup.msi",
         "hash":  "7B58B16DB337FA04AAA95BB34C0946DB651035FF923D4D302AD1F79BC5118AC8",
         "LastUpdate":  null
     },
     {
-        "pkgName":  "WinSCP",
+        "Name":  "WinSCP",
         "DisplayName":  "WinSCP",
         "publisher":  null,
-        "pkgversion":  "5.19.2",
-        "pkgSource":  "https://nchc.dl.sourceforge.net/project/winscp/WinSCP/5.19.2/WinSCP-5.19.2-Setup.exe",
+        "Version":  "5.19.2",
+        "URI":  "https://nchc.dl.sourceforge.net/project/winscp/WinSCP/5.19.2/WinSCP-5.19.2-Setup.exe",
         "hash":  "402EF66D76D00BC08FBC1D92D2CFEB923E3B36452DD7958ABFC6D7CD207395C5",
         "LastUpdate":  null
     },
     {
-        "pkgName":  "Wireshark",
+        "Name":  "Wireshark",
         "DisplayName":  "Wireshark",
         "publisher":  null,
-        "pkgversion":  "3.4.8",
-        "pkgSource":  "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.8.exe",
+        "Version":  "3.4.8",
+        "URI":  "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.8.exe",
         "hash":  "7F65C2EDB7EA53E6ABCE513E2DC5B4C3DC323738D49B54718255C2944C776C5A",
         "LastUpdate":  null
     },
     {
-        "pkgName":  "Microsoft365Apps",
-        "DisplayName":  "Office 365",
-        "publisher":  "Microsoft",
-        "pkgversion":  "16.0.14430.20088",
-        "pkgSource":  "https://officecdn.microsoft.com/pr/wsus/setup.exe",
-        "hash":  "C31270C8B3C949BFCF3ED256D442C403275B1B7EC374FDED4C4946D51036D206",
-        "LastUpdate":  null
-    },
-    {
-        "pkgName":  "Firefox",
+        "Name":  "Firefox",
         "DisplayName":  "Mozilla Firefox",
         "publisher":  "Mozilla",
-        "pkgversion":  "18.05",
-        "pkgSource":  "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-latest-ssl/en-US/win64/3076aaa863b9491f15c5d7f63a9183b6b3c2ae14438094a3def462401e70a217/Firefox%20Setup%2092.0.exe",
+        "Version":  "18.05", 
+        "URI":  "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-latest-ssl/en-US/win64/3076aaa863b9491f15c5d7f63a9183b6b3c2ae14438094a3def462401e70a217/Firefox%20Setup%2092.0.exe",
         "hash":  "E56EAACBD9E33EDF45EC3967F2EE5D3F23673312A424CFA4BFDC318D7F8618E3",
         "LastUpdate":  null
     },
     {
-        "pkgName":  "git-portable",
+        "Name":  "git-portable",
         "DisplayName":  "Git for Windows Portable",
         "publisher":  "git",
-        "pkgversion":  "2.33.0",
-        "pkgSource":  "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/PortableGit-2.33.0.2-64-bit.7z.exe",
+        "Version":  "2.33.0",
+        "URI":  "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/PortableGit-2.33.0.2-64-bit.7z.exe",
         "hash":  "BC030848E282D49E562AE2392A72501CF539322AD06FFE4CEA8CF766F148DFE8",
         "LastUpdate":  null
     },
     {
-        "pkgName":  "docker-desktop",
+        "Name":  "docker-desktop",
         "DisplayName":  "Docker Desktop for Windows",
         "publisher":  "docker",
-        "pkgversion":  null,
-        "pkgSource":  "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
+        "Version":  null,
+        "URI":  "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
         "hash":  "C3D19FA55950C4311477E8977C6CBAF7FE866942E9A2DF7AC9D296B8C8305DF5",
         "LastUpdate":  null
     },
     {
-        "pkgName":  "Greenshot",
+        "Name":  "Greenshot",
         "DisplayName":  "Greenshot",
         "publisher":  null,
-        "pkgversion":  "1.2.10.6",
-        "pkgSource":  "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
+        "Version":  "1.2.10.6",
+        "URI":  "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
         "hash":  "1687311B4E7A3720BE20490E8ED6CC772A32336A7BED8896E475B8EC616C6B81",
         "LastUpdate":  null
     }
+    
 ]
